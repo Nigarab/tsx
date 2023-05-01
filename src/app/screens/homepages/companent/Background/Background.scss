@@ -1,0 +1,41 @@
+.background-container {
+    margin-top: 20px;
+    .background2 {
+      background: url("../../../assets/images/Image\ 8.png");
+      background-size: cover;
+      background-position-x: center;
+      height: 500px;
+      width: 100%;
+    }
+  
+    .hero-title2 {
+      text-align: center;
+      color: white;
+      font-size: 78px;
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    .back-button {
+      display: flex;
+      justify-content: center;
+    }
+    .background-button2 {
+      background-color: #ff3838;
+      size: 100px;
+      border-radius: 45px;
+      border-color: #ff3838;
+      width: 200px;
+      height: 70px;
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width:600px) {
+  .background-container{ .background2{
+    height: 800px;
+  }
+  .hero-title2{
+  font-size: 60px;
+}
+}
+  }

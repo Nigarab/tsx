@@ -1,0 +1,141 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+.background{
+    background:url(../../../assets/images/Rectangle.png) ;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 900px;
+}
+.second-container{
+    margin-top: 20px 50px;
+}
+
+    
+img{
+    width: 25%;
+}
+.account{
+    font-size: 25px;
+    padding-top: 30px;
+}
+.first-p{
+    color: #939393;
+}
+
+.input-name-email{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    
+}
+#name-email-password{
+    width: 80%;
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #939393;
+}
+.input-password{
+    display: flex;
+    flex-direction: row;
+    gap: 320px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+   
+}
+ .img-logo{
+    display: flex;
+    padding-right: 120px;
+   
+    
+}
+.hide-logo{
+    width: 24px;
+    height: 24px;
+}
+.password-forms{
+    font-size: 14px;
+    color: #939393;
+}
+.link-text{
+    padding-top: 30px;
+    color: #939393;
+}
+ a{
+    color: black;
+}
+.for-button{
+    padding-top: 30px;
+   
+   
+   
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+ button{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #939393;
+    border-radius: 15px;
+    
+}
+
+.robot-logo{
+    width: 40px;
+    height: 40px;
+}
+.last-button{
+    padding-top: 40px;
+    
+}
+.create{
+    border-radius: 34px;
+    background-color: #999797;
+    color: white;
+    font-size: 20px;
+    width: 260px;
+    
+}
+.last-p{
+    color: #939393;
+    padding: 5px;
+}
+}
+@media screen  and (max-width:600px) {
+    .container{
+       width:400px;
+       height: 100%;
+       .background{
+       width: 200px;
+       height: 1004px;
+   }
+   .second-container{width: 200px;}
+.img-logo{
+   padding-right: 10px;
+}
+ #name-email-password{
+   width: 100%;
+}
+ button{
+   width: 100%;
+}
+ .create{
+   width: 100%;
+}
+}
+}
+
+
+
+
+
+
+
