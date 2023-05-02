@@ -1,4 +1,5 @@
 import './ForWriteAndPic.scss'
+import image1 from '../../../../../assets/images/process 2 - Image.png'
 export const ForWriteAndPic =()=>{
     return(
         <>
@@ -14,7 +15,7 @@ export const ForWriteAndPic =()=>{
                 </div>{" "}
             </div>
             <div className="right-pic">
-                <img src="./process 2 - Image.png" className="right" />
+                <img src={image1} className="right" />
             </div>
         </div><div className="specialized">
                 <h1 className="spe-container">We specialized in</h1>

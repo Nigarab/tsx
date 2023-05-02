@@ -1,9 +1,10 @@
 import './ForPicAndWrite.scss'
+import image from '../../../../../assets/images/process 2 - Image.png'
 export const ForPicAndWrite =()=>{
     return(
         <div className="for-pic-and-write">
         <div className="pic-side">
-          <img src="./process 1 - Image.png" className="left" />
+          <img src={image} className="left" />
         </div>
         <div className="write-side">
           <h2 className="right-write">Research prospect</h2>

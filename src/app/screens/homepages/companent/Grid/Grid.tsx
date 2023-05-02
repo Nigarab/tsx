@@ -1,10 +1,14 @@
 import './Grid.scss'
+import icon2 from '../../../../../assets/images/Icon-2.png'
+import icon4 from '../../../../../assets/images/Icon-4.png'
+import icon3 from '../../../../../assets/images/Icon-3.png'
+import icon1 from '../../../../../assets/images/Icon1..png'
 export const Grid =()=>{
     return (
         <div className="grid2">
             <div className="first-side-grid">
                 <div className="first-side">
-                    <img src="./Icon1..png" className="icon1" />
+                    <img src={icon1} className="icon1" />
                 </div>
                 <h2 className="icon1-write">Marketing automation</h2>
                 <p className="icon1-p">
@@ -18,7 +22,7 @@ export const Grid =()=>{
 
             <div className="second-side-grid">
                 <div className="second-side">
-                    <img src="./Icon-2.png" className="icon2" />
+                    <img src={icon2} className="icon2" />
                 </div>
                 <h2 className="icon2-h1">Task management</h2>
                 <p className="icon2-p">
@@ -30,7 +34,7 @@ export const Grid =()=>{
             </div>
             <div className="first-side-grid">
                 <div className="first-side">
-                    <img src="./Icon-3.png" className="icon1" />
+                    <img src={icon3} className="icon1" />
                 </div>
 
                 <h2 className="icon3-write1">Sales messaging</h2>
@@ -44,7 +48,7 @@ export const Grid =()=>{
 
             <div className="second-side-grid">
                 <div className="second-side">
-                    <img src="./Icon-4.png" className="icon2" />
+                    <img src={icon4} className="icon2" />
                 </div>
                 <h2 className="icon4-h1">Budgeting tools</h2>
                 <p className="icon4-p1">
